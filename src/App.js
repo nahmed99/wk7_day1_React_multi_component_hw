@@ -1,7 +1,8 @@
+import UpcomingFilms from './containers/UpcomingFilms';
 
 function App() {
   return (
-    <h1>This is the New Stuff!</h1>
+    <UpcomingFilms/>
   );
 }
 
