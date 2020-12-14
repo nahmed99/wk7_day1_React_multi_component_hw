@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import FilmList from '../components/FilmList';
+import MoreFilms from '../components/MoreFilms';
 
 const UpcomingFilms = () => {
 
@@ -37,8 +38,11 @@ const UpcomingFilms = () => {
     return (
 
         <>
-        <h1>Upcoming Film Releases for UK</h1>
-        <FilmList films={films} />
+            <h1>Upcoming Film Releases for UK</h1>
+            <hr></hr>
+            <FilmList films={films} />
+            <hr></hr>
+            <MoreFilms />
         </>
 
     );
