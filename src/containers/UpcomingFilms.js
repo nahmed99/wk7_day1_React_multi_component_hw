@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import FilmList from '../components/FilmList';
 import MoreFilms from '../components/MoreFilms';
+import '../App.css';
 
 const UpcomingFilms = () => {
 
@@ -37,13 +38,13 @@ const UpcomingFilms = () => {
 
     return (
 
-        <>
-            <h1>Upcoming Film Releases for UK</h1>
+        <div className="upcoming-films">
+            <h2>Upcoming Film Releases for UK</h2>
             <hr></hr>
             <FilmList films={films} />
             <hr></hr>
             <MoreFilms />
-        </>
+        </div>
 
     );
 }
