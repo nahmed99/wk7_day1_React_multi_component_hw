@@ -1,6 +1,6 @@
-const Film = () => {
+const Film = ({name, url}) => {
     return (
-        <p>This is a film</p>
+       <p><a href={url}>{name}</a></p>
     )
 }
 
