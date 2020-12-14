@@ -1,7 +1,13 @@
+import Film from './Film';
+
 
 const FilmList = () => {
     return (
-        <h1>This is the Film List</h1>
+        <>
+            <h3>This is the Film List</h3>
+            <Film />
+        </>
+
     )
 }
 
